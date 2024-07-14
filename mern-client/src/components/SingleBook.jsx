@@ -5,5 +5,4 @@ const SingleBook = () => {
     <div>SingleBook</div>
   )
 }
-
 export default SingleBook
