@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 
 const SingleBook = () => {
+  const book = useLoaderData();
+
   return (
-    <div>SingleBook</div>
-  )
-}
-export default SingleBook
+    <div className='mt-28 px-4 lg:px-24'>
+      <h2>{book.bookTitle}</h2>
+      <img src={book.imageUrl} alt={book.bookTitle} />
+    </div>
+  );
+};
+
+export default SingleBook;
