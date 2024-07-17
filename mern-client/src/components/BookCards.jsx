@@ -21,7 +21,7 @@ const BookCards = ({headLine, books}) => {
         <h6 className='text-5xl text-center font-bold text-black my-5'>{headLine}</h6>
 
         {/* cards */}
-        <div>
+        <div className='mt-12'>
         <Swiper
         slidesPerView={1}
         spaceBetween={10}
