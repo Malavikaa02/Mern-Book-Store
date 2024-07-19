@@ -8,6 +8,7 @@ import {
   import About from "../components/About.jsx";
   import Blog from "../components/Blog.jsx";
   import SingleBook from "../shop/SingleBook.jsx";
+  import DashboardLayout from "../dashboard/DashboardLayout.jsx";
 
   const router = createBrowserRouter([
     {
@@ -37,6 +38,10 @@ import {
         }
       ]
     },
+    {
+      path: "/admin/dashboard",
+      element: <DashboardLayout/>
+    }
   ]);
 
 export default router;
