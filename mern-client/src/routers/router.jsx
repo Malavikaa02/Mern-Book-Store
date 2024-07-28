@@ -9,7 +9,6 @@ import {
   import Blog from "../components/Blog.jsx";
   import SingleBook from "../shop/SingleBook.jsx";
   import DashboardLayout from "../dashboard/DashboardLayout.jsx";
-import Dashboard from "../dashboard/Dashboard.jsx";
 import UploadBook from "../dashboard/UploadBook.jsx";
 import ManageBooks from "../dashboard/ManageBooks.jsx";
 import EditBooks from "../dashboard/EditBooks.jsx";
@@ -47,10 +46,6 @@ import Signup from "../dashboard/Signup.jsx";
       path: "/admin/dashboard",
       element: <DashboardLayout/>,
       children: [
-        {
-          path: "/admin/dashboard",
-          element: <Dashboard/>
-        },
         {
           path: "/admin/dashboard/upload",
           element: <UploadBook/>
