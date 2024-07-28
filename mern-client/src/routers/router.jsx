@@ -38,7 +38,7 @@ import Signup from "../dashboard/Signup.jsx";
         {
             path: "/book/:id",
             element: <SingleBook/>,
-            loader: ({params}) => fetch(`http://localhost:5000/book/${params.id}`)
+            loader: ({params}) => fetch(`https://mern-book-store-6ym5.onrender.com/book/${params.id}`)
         }
       ]
     },
@@ -57,7 +57,7 @@ import Signup from "../dashboard/Signup.jsx";
         {
           path: "/admin/dashboard/edit-books/:id",
           element: <EditBooks/>,
-          loader: ({params}) => fetch(`http://localhost:5000/book/${params.id}`)
+          loader: ({params}) => fetch(`https://mern-book-store-6ym5.onrender.com/book/${params.id}`)
         }
       ]
     },

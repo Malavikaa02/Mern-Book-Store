@@ -49,7 +49,7 @@ const UploadBook = () => {
 
     // send data to database
 
-    fetch("http://localhost:5000/upload-book", {
+    fetch("https://mern-book-store-6ym5.onrender.com/upload-book", {
       method: "Post", 
       headers: {
         "Content-Type": "application/json",
