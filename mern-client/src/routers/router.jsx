@@ -32,10 +32,6 @@ import Signup from "../dashboard/Signup.jsx";
             element: <About/>
         },
         {
-            path: "/blog",
-            element: <Blog/>
-        },
-        {
             path: "/book/:id",
             element: <SingleBook/>,
             loader: ({params}) => fetch(`https://mern-book-store-6ym5.onrender.com/book/${params.id}`)
