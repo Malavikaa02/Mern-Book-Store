@@ -34,3 +34,15 @@ The MERN Book Store is a full-stack web application for managing a collection of
      ```
 ## Set up environment variables
 Create a .env file in the backend directory and add the following variables:
+## Run the application
+   + Start the backend server:
+      ```bash
+      cd mern-server
+      nodemon index.js
+      ```
+   + Start the frontend server:
+      ```bash
+      cd mern-client
+      npm run dev
+      ```
+The application should now be running on http://localhost:5173 for the frontend and http://localhost:5000 for the backend.
