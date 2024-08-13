@@ -46,3 +46,4 @@ Create a .env file in the backend directory and add the following variables:
       npm run dev
       ```
 The application should now be running on http://localhost:5173 for the frontend and http://localhost:5000 for the backend.
+## Usage
