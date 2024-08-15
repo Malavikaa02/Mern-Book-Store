@@ -53,3 +53,4 @@ The application should now be running on http://localhost:5173 for the frontend 
 4. **Add a new book** by navigating to the "Add Book" page.
 5. **Edit book details** by clicking the "Edit" button on a book.
 6. **Delete a book** by clicking the "Delete" button on a book.
+## Contributing
